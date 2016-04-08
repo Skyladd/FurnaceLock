@@ -7,4 +7,4 @@ furnacelock - Allows using basic ChestLock commands
 
 furnacelock.op - Allows using the op ChestLock commands
 
-###To make this a useable .phar file use this website http://pmt.mcpe.me/
+###To make this a usable .phar file use this website http://pmt.mcpe.me/
