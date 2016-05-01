@@ -1,0 +1,26 @@
+name: FurnaceLock
+author: Skyladd
+version: 1.0.0
+main: Skyladd\FurnaceLock
+load: POSTWORLD
+api: 2.0.0
+website: "https://github.com/Skyladd/ChestLock/"
+commands:
+  furnace:
+    description: "Lock your furnaces"
+    usage: "/chest"
+    permission: furnacelock
+    default: true
+  furnaceop:
+    description: "Unlock furnaces"
+    usage: "/chestop"
+    permission: furnacelock.op
+    default: op
+permissions:
+  furnacelock:
+    default: true
+    description: "Lock your furnaces"
+  furnacelock.op:
+    default: op
+    description: "Unlock furnaces"
+  
